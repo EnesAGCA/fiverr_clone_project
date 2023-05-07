@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fiverr Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark border-bottom border-muted">
+        <div class="container  ">
+          <a class="navbar-brand" href="#">Fiverr Clone</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">  <!-- ms-auto sağa almaya yarar menüyü -->
+              <a class="nav-link " aria-current="page" href="#">Graphics & Design</a>
+              <a class="nav-link" href="#">Digital Marketing</a>
+              <a class="nav-link" href="#">Video & Animation</a>
+              <a class="nav-link" href="#">
+                Music & Audio</a>
+
+                <a class="nav-link" href="#">Video & Animation</a>
+                <a class="nav-link btn btn-outline-secondary px-3" href="#">Join</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- NAVBAR END -->
+
+
+    <!-- HERO-CONTENT -->
+
+
+      <div class="bg-dark text-light">
+        <div class="container ">
+            <div class="row py-4 ">
+                <div class="col-sm-8 d-flex align-items-center"> <!-- d-flex align-items-center  ile ortaladık -->
+
+                    <div class="row">  <!-- daha sonra buradaki görüntü yan yana gelmesin diye yine bir row atıp içine 2 tane colon attık alt alta gelsinler diye -->
+                        <div class="col-12">
+                            <h2>Find the perfect freelance services for your business</h2>
+                        </div>
+                        <div class="col-12">
+                        <div class="input-group mb-3"> <!--bu kısımdaki butonu input group tan aldık hocam-->
+                            <span class="input-group-text" id="addon-wrapping"> <!-- yine aynı şekilde input group tan bir çerçevesini alıp içine boostrap icondan bir search ikonu koyup bu işlemi tamamladık -->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                  </svg>
+                            </span>
+                        <input type="text" class="form-control" placeholder='Try "building mobile app"'aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-success btn-lg" type="button" id="button-addon2">Search</button>  <!--rengini değiştik ve btn large ekledik-->
+                      </div>
+                        <!-- ul.list-inline>li.list-inline-item*4>a[href=#].btn.btn-outline-secondary içine li yazmadık otomatik li olacağı anlamına geliyor -->
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                Popular:
+                            <li class="list-inline-item">
+                                <a href="#" class=" ms-1 btn btn-sm btn-outline-secondary rounded-5 text-light">Web Design</a>
+                            </li>
+                            <li class="list-inline-item"> <!-- rounded kullanndık buralarda ve btn-sm yaptık -->
+                                <a href="#" class="btn btn-sm btn-outline-secondary rounded-5 text-light">Django</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn btn-sm btn-outline-secondary rounded-5 text-light">Python</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+                <div class="col-sm-4">
+                    <img src="https://picsum.photos/id/870/400/600?grayscale&blur=2" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+
+    <!-- HERO-CONTENT END-->
+
+    <!-- LOGO -->
+
+    <!-- .bg-light>.container>.row>.col-sm-6>ul.list-inline>li.list-inline-item*5>img  -->
+    <div class="bg-light  py-4" style="color: #bdc3c7;">  <!-- style ile renk ayarladık yazı rengi -->
+        <div class="container" >
+            <div class="row">
+                <div class="col-sm-8 offset-sm-2"> <!-- aşağıda 6 tane colon 1 lik yapı tutuyor burada li ye alınca aşağıya vs kayıyyor bazı li elemanları böyle tam sığıyor -->
+                    
+                    <div class="row d-flex align-items-center">
+                        <div class="col">Trusted by:</div>
+                        
+                        <div class="col"><!-- img-thumbnail kullandık buraya ayrı eten -->
+                            <img class="img-thumbnail" src="https://picsum.photos/id/670/140/40?grayscale&blur=1" alt="">
+                        </div>
+                        <div class="col">
+                            <img class="img-thumbnail" src="https://picsum.photos/id/370/140/40?grayscale&blur=1" alt="">
+                        </div>
+                        <div class="col">
+                            <img class="img-thumbnail" src="https://picsum.photos/id/270/140/40?grayscale&blur=1" alt="">
+                        </div>
+                        <div class="col">
+                            <img class="img-thumbnail" src="https://picsum.photos/id/170/140/40?grayscale&blur=1" alt="">
+                        </div>
+                        <div class="col">
+                            <img class="img-thumbnail" src="https://picsum.photos/id/870/140/40?grayscale&blur=1" alt="">
+                        </div>
+               
+                        
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LOGO END -->
+
+    <!-- PROFESSIONAL SERVİCES -->
+
+    <div class="container my-5" >
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Popular professional services</h2>
+            </div>
+            <div class="col-sm">  <!-- img overlayden aldık kartlar kısmından -->
+                <div class="card text-bg-dark shadow"> <!-- shadow ekledik -->
+                    <img src="https://picsum.photos/id/810/90/120?blur=1" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <p class="card-text"><small>Build your website with</small></p>
+                        <h5 class="card-title">Django</h5>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">  <!-- img overlayden aldık kartlar kısmından -->
+                <div class="card text-bg-dark shadow"> <!-- shadow ekledik -->
+                    <img src="https://picsum.photos/id/811/90/120?blur=1" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <p class="card-text"><small>Build your website with</small></p>
+                        <h5 class="card-title">Python</h5>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">  <!-- img overlayden aldık kartlar kısmından -->
+                <div class="card text-bg-dark shadow"> <!-- shadow ekledik -->
+                    <img src="https://picsum.photos/id/818/90/120?blur=1" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <p class="card-text"><small>Build your website with</small></p>
+                        <h5 class="card-title">React</h5>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">  <!-- img overlayden aldık kartlar kısmından -->
+                <div class="card text-bg-dark shadow"> <!-- shadow ekledik -->
+                    <img src="https://picsum.photos/id/813/90/120?blur=1" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <p class="card-text"><small>Build your website with</small></p>
+                        <h5 class="card-title">Html</h5>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">  <!-- img overlayden aldık kartlar kısmından -->
+                <div class="card text-bg-dark shadow"> <!-- shadow ekledik -->
+                    <img src="https://picsum.photos/id/810/90/120?blur=1" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <p class="card-text"><small>Build your website with</small></p>
+                        <h5 class="card-title">Css</h5>
+                      
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PROFESSIONAL SERVİCES END -->
+
+    <!-- INFO -->
+
+    <div class="mb-5" style="background-color: #f1fdf7;">
+    
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-sm pe-5 me-5">
+                    <h3 class="mb-3">A whole world of freelance talent at your fingertips</h3>
+                    <h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                          </svg>
+                        The best for every budget</h4>
+                    <p class="">
+                        Find high-quality services at every price point. No hourly rates, just project-based pricing.
+                    </p>
+                    <h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                          </svg>
+                          Quality work done quickly</h4>
+                        <h4>
+                    <p class="">
+                        Find the right freelancer to begin working on your project within minutes.
+                    </p>
+                    <h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                          </svg>
+                          Protected payments, every time</h4>
+                    <p class="">
+                        Always know what you'll pay upfront. Your payment isn't released until you approve the work.</p>
+                        <h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                          </svg>
+                          24/7 support</h4>
+                    <p class="">
+                        Questions? Our round-the-clock support team is available to help anytime, anywhere.</p>
+
+                </div>
+                
+                <div class="col-sm">
+                    <!-- img.w-100[src="https://picsum.photos/id/810/600/400?blur=1"] -->
+                    <img src="https://picsum.photos/id/818/600/400?blur=1" alt="" class="w-100 shadow img-thumbnail">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- INFO END -->
+
+    <!-- EXPLORE MARKETPLACE -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 mb-5">
+                <h2 class="ms-5">Explore the marketplace</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="text-center d-flex flex-column position-relative mb-3"> <!-- list-unstyled yine boostrap in typ grubundan bakabilirsin   daha sonra bunu değiştik agam ne yaptık peki öncelikle boostrapten Stretched link kısmını alıp hrefe yapştırdık classa ve genel div kapsayıcısına d-flex position-relative kısmını yapıştırdık  daha sonra ul ve li leri alt alta gelebilmeleri için div lere aldık ve en üst kapsayıcı div classına alt alta dursun diye flex-column özelliği verdik flex yapısından aldık onu  ve aşağıdaki link color a gidip link-dark ı çaldık
+                
+                    yani işin özü burada custom compenent ve stretched link kullandık
+                
+                -->
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+                            <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                            <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z"/>
+                          </svg>
+                        </div>
+                    <div class="mt-2">
+                        <a href="#" class="stretched-link link-dark text-decoration-none" >Graphics & Design</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="text-center d-flex flex-column position-relative mb-3">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-tv" viewBox="0 0 16 16">
+                            <path d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3h11.991zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/>
+                          </svg>
+                        </div>
+                    <div class="mt-2">
+                        <a href="#" class="stretched-link link-dark text-decoration-none" >Digital Marketing</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="text-center d-flex flex-column position-relative mb-3">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-journals" viewBox="0 0 16 16">
+                            <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z"/>
+                            <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z"/>
+                          </svg>
+                        </div>
+                    <div class="mt-2">
+                        <a href="#" class="stretched-link link-dark text-decoration-none" >Writing & Translation</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="text-center d-flex flex-column position-relative mb-3">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                            <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z"/>
+                          </svg>
+                        </div>
+                    <div class="mt-2">
+                        <a href="#" class="stretched-link link-dark text-decoration-none" >Video & Animation</a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm">
+                <div class="text-center d-flex flex-column position-relative mb-3">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-mic-fill" viewBox="0 0 16 16">
+                            <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z"/>
+                            <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
+                          </svg>
+                        </div>
+                    <div class="mt-2">
+                        <a href="#" class="stretched-link link-dark text-decoration-none" >Music & Audio</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- EXPLORE MARKETPLACE END -->
+
+    <!-- FIVERR BUSINESS -->
+
+    <div class="" style="background-color: #130542;">
+    
+        <div class="container pb-5 ">
+            <div class="row text-light ">
+                <div class="col-sm pt-3 ms-0 ps-0 text-start ">
+                    <h4 class="mt-5" >fiverr business. <span class="badge rounded-pill text-bg-primary">New</span></h4>
+                    <h3 class="mt-4">A business solution designed for teams</h3>
+                    <p class="mt-3">Upgrade to a curated experience packed with tools and benefits, dedicated to businesses</p>
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                          </svg>
+                          Connect to freelancers with proven business experience
+                    </p>
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                          </svg>
+                          Get matched with the perfect talent by a customer success manage
+                    </p>
+                    <p class="mb-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                          </svg>
+                          Manage teamwork and boost productivity with one powerful workspace
+                    </p>
+                    <a href="#" class="btn btn-sm btn-outline-success  text-light  p-2 rounded-4 " style="background-color: rgb(15, 99, 15);">
+                        Explore Fiver Business
+                    </a>
+                </div>
+                <div class="col-sm my-5">
+                    <img src="https://picsum.photos/id/27/600/400" class=" img-thumbnail" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FIVERR BUSINESS END -->
+
+    <!-- MARKETING -->
+
+        <div class="container mt-5 mb-5">
+            <div class="row mb-5 pb-5">
+                <div class="col-sm mt-5 me-0 pe-0">
+                    <img src="https://picsum.photos/id/57/500/300" alt="" class=" img-thumbnail shadow">
+                </div>
+                <div class="col-sm  text-start mt-3">
+                    <h3 class="pt-5 mb-3"> <span class="text-muted">Lorem ipsum , Co-Founder |</span>   rooted</h3>
+                    <p class="display-6 " style="color: rgb(3, 109, 3);">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore amet molestias suscipit maxime quas consequatur?"</p>
+                </div>
+            </div>
+            <div class="row mt-5" style="background-color: #2c5bc6;">
+                <div class="col-sm text-light ms-5 py-3">
+                        <h4 class="py-3">fiverr logo maker.</h4>
+                        <h3 class="pb-2">Make an incredible logo in minutes</h3>
+                        <p class="pb-3">Pre-designed by top talent. Just add your touch.</p>
+                        <a href="#" class="btn btn-lg btn-outline-secondary bg-light px-2" style="color: #2c5bc6;">Try Fiverr Logo Maker</a>
+                </div>
+                <div class="col-sm">
+                    <img src="https://picsum.photos/id/77/500/300" alt="" class="img-thumbnail shadow">
+                </div>
+            </div>
+        </div>
+
+    <!-- MARKETING END -->
+
+    <!-- GET INSPIRING -->
+<div class="" style="background-color: #ecf0f1">
+    <div class="container py-5">
+        <div class="row my-5">
+            <div class="col-sm-10">
+                <h3>Get inspired with projects made by our freelancers</h3>
+            </div>
+            <div class="col-sm text-end">
+                <a href="#" class="text-decoration-none">See More Projects</a>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-sm-3">
+                <div class="card  " >
+                   <a href="">
+                    <img src="https://picsum.photos/id/77/500/300" class="card-img-top" alt="...">
+                   </a> 
+                    <div class="mt-2 ms-2 mb-3 d-flex justify-content-start">
+                       <div>
+                        <a href="#" class="text-decoration-none ">
+                        <img src="https://picsum.photos/id/67/40/40" class="rounded-circle" alt="">
+                    </div> 
+                      <div class="ms-2">
+                      <small class="card-title text-dark ">Logo Design</small>
+                        <p class="text-muted ">by lorem</p>
+                    </div>
+                      </a> 
+                      
+                    </div>
+                    
+                  </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card  " >
+                    <a href="">
+                     <img src="https://picsum.photos/id/47/500/300" class="card-img-top" alt="...">
+                    </a> 
+                     <div class="mt-2 ms-2 mb-3 d-flex justify-content-start">
+                        <div>
+                         <a href="#" class="text-decoration-none ">
+                         <img src="https://picsum.photos/id/37/40/40" class="rounded-circle" alt="">
+                     </div> 
+                       <div class="ms-2">
+                       <small class="card-title text-dark ">Book Design</small>
+                         <p class="text-muted ">by lorem</p>
+                     </div>
+                       </a> 
+                       
+                     </div>
+                     
+                   </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card  " >
+                    <a href="">
+                     <img src="https://picsum.photos/id/39/500/300" class="card-img-top" alt="...">
+                    </a> 
+                     <div class="mt-2 ms-2 mb-3 d-flex justify-content-start">
+                        <div>
+                         <a href="#" class="text-decoration-none ">
+                         <img src="https://picsum.photos/id/38/40/40" class="rounded-circle" alt="">
+                     </div> 
+                       <div class="ms-2">
+                       <small class="card-title text-dark ">Mobile Design</small>
+                         <p class="text-muted ">by lorem</p>
+                     </div>
+                       </a> 
+                       
+                     </div>
+                     
+                   </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card  " >
+                    <a href="">
+                     <img src="https://picsum.photos/id/727/500/300" class="card-img-top" alt="...">
+                    </a> 
+                     <div class="mt-2 ms-2 mb-3 d-flex justify-content-start">
+                        <div>
+                         <a href="#" class="text-decoration-none ">
+                         <img src="https://picsum.photos/id/777/40/40" class="rounded-circle" alt="">
+                     </div> 
+                       <div class="ms-2">
+                       <small class="card-title text-dark ">Web Design</small>
+                         <p class="text-muted ">by lorem</p>
+                     </div>
+                       </a> 
+                       
+                     </div>
+                     
+                   </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- GET INSPIRING END -->
+
+    <!-- FIVERR GUIDES -->
+
+ <div class="container my-5 pt-5 ">
+    <div class="mb-5">
+        <div class="row mb-3 my-5">
+            <div class="col-sm-10">
+                <h3>Fiverr guides</h3>
+            </div>
+            <div class="col-sm text-end">
+                <a href="#" class="text-decoration-none">See More Projects</a>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-sm-4">
+                <div class="card">
+                    <a href="#" class="text-decoration-none">
+                    <img src="https://picsum.photos/id/777/300/150" class="w-100 card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="text-dark">Lorem ipsum dolor sit amet consectetur.</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <a href="#" class="text-decoration-none">
+                    <img src="https://picsum.photos/id/777/300/150" class="w-100 card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="text-dark">Lorem ipsum dolor sit amet consectetur.</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                         </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <a href="#" class="text-decoration-none">
+                    <img src="https://picsum.photos/id/777/300/150" class="w-100 card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="text-dark">Lorem ipsum dolor sit amet consectetur.</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row mt-5 "  style="background-color: rgb(60, 2, 2);">
+            <div class="col-sm-7  text-light mt-5 ps-5 text-start pt-2 mb-5">
+                <h3 class="h1 ps-3 ">Find the talent needed to </h3>
+                <h3 class="h1 ps-3  ">get your business growing. </h3>
+                <div class="mt-5 ps-3 ">
+                    <a href="#" class="   text-decoration-none btn-success btn btn-lg btn-outline-success text-light">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <img src="https://picsum.photos/id/727/500/400" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- FIVERR GUIDES END -->
+
+    <!-- FOOTER -->
+    
+    <div class="border-top  mt-5" style="background-color: #ecf0f1">  <!-- border top ekledik sonradan --> <!-- mt-5 ekledik  renk ekledik-->
+    <div class="container pt-5">   <!-- p ekledik -->
+        <footer class="">   
+          <div class="row">
+            <div class="col-6 col-md mb-3">  <!--  col-md-2 kısmını sadece col-md olarak değiştik 5 tane yapı vardı onları otomatik yapmak maksadıyla böyle yaptık -->
+              <h5>Section</h5>
+              <ul class="nav flex-column ">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lorem.</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Voluptates!</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Aliquid.</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Culpa.</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Eveniet.</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lorem.</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Praesentium!</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ullam!</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tempore.</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Magnam.</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column ">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lorem.</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Officia?</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Modi.</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Esse.</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sit.</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lorem.</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Exercitationem?</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Enim!</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Iusto!</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Exercitationem?</a></li>
+                </ul>
+              </div>
+
+              <div class="col-6 col-md mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column ">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lorem.</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mollitia?</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Voluptatum.</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Similique!</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Distinctio.</a></li>
+                </ul>
+              </div>
+
+              
+      
+
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top">
+            <p>© 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div> 
+    <!-- FOOTER END -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
